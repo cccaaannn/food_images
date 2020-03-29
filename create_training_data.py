@@ -1,7 +1,8 @@
 from imagepreprocessing import create_training_data_yolo, auto_annotation_by_random_points, yolo_annotation_tool
 import os
 
-main_dir = "10_class/train_10_class"
+main_dir = "30_class/train_30_class"
+# main_dir = "10_class/train_10_class"
 # main_dir = "5_class/train_5_class"
 # main_dir = "3_class/train_3_class"
 
