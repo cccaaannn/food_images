@@ -1,4 +1,4 @@
-from imagepreprocessing import make_prediction_from_directory_yolo
+from imagepreprocessing.darknet_functions import make_prediction_from_directory_yolo
 import os
 
 darknet_command = "./darknet detector test data/train_10_class/obj.data data/train_10_class/yolo-obj.cfg backup/yolo-obj_final.weights {0} -dont_show"
