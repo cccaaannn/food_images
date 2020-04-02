@@ -1,7 +1,7 @@
 cd 
 git clone https://github.com/AlexeyAB/darknet
 sudo apt-get update
-sudo apt-get -y upgrade 
+sudo apt-get -y upgrade
 sudo apt-get install libopencv-dev
 cd darknet
 sed -i 's/OPENCV=0/OPENCV=1/g' Makefile
