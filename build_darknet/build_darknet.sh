@@ -1,3 +1,4 @@
+cd 
 git clone https://github.com/AlexeyAB/darknet
 sudo apt-get update
 sudo apt-get -y upgrade 
